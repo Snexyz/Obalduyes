@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0b0b0c" />
+    <title>Obalduyes | First Lego League Team</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#about">Skip to content</a>
+
+    <header class="nav" data-sticky-nav>
+      <div class="container nav__inner">
+        <a class="brand" href="#top" aria-label="Obalduyes home">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__name">Obalduyes</span>
+        </a>
+
+        <nav class="nav__links" id="primaryNav" aria-label="Primary">
+          <a class="nav__link" href="#about" data-nav-link data-i18n="navAbout">About</a>
+          <a class="nav__link" href="#projects" data-nav-link data-i18n="navProjects">Projects</a>
+          <a class="nav__link" href="#achievements" data-nav-link data-i18n="navAchievements">Achievements</a>
+          <a class="nav__link" href="#team" data-nav-link data-i18n="navTeam">Team</a>
+          <a class="nav__link" href="#contact" data-nav-link data-i18n="navContact">Contact</a>
+        </nav>
+
+        <div class="nav__right">
+          <button
+            class="btn btn--ghost btn--icon"
+            type="button"
+            id="menuBtn"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="primaryNav"
+          >
+            <span class="btn__icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 7h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                <path d="M4 12h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                <path d="M4 17h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+              </svg>
+            </span>
+          </button>
+
+          <button
+            class="btn btn--ghost btn--icon"
+            type="button"
+            id="langToggle"
+            aria-label="Language switcher"
+          >
+            <span class="btn__icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4 5h6M7 5c1.2 2.7 3 5.2 6 7.3M13 12c1.5 1 3.2 1.8 5 2.2M12 19c.8-2.3 1.8-4.6 3-7.1"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M3.8 19h16.4"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <span class="btn__text" data-i18n="langToggle">EN</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="pill" data-i18n="heroTag">First Lego League Team</p>
+            <h1 class="hero__title reveal" data-reveal id="heroTitle">
+              Obalduyes
+            </h1>
+            <p class="hero__subtitle reveal" data-reveal>
+              <span data-i18n="heroSub">
+                We build solutions with creativity, discipline, and teamwork—turning ideas into real impact.
+              </span>
+            </p>
+
+            <div class="hero__actions reveal" data-reveal>
+              <a class="btn btn--primary" href="#about" data-scroll-link data-i18n="heroLearnMore">Learn More</a>
+              <a
+                class="btn btn--secondary"
+                href="#projects"
+                data-scroll-link
+                data-i18n="heroSeeProjects"
+              >
+                See Projects
+              </a>
+            </div>
+
+            <div class="hero__meta reveal" data-reveal>
+              <div class="stat">
+                <div class="stat__value" data-i18n="metaFocus">Design</div>
+                <div class="stat__label" data-i18n="metaFocusLabel">Strategy + Engineering</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value" data-i18n="metaTeam">Teamwork</div>
+                <div class="stat__label" data-i18n="metaTeamLabel">Collaboration-first</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value" data-i18n="metaValues">Values</div>
+                <div class="stat__label" data-i18n="metaValuesLabel">Respect + Integrity</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="aboutTitle">
+        <div class="container">
+          <header class="section__header reveal" data-reveal>
+            <h2 class="section__title" id="aboutTitle" data-i18n="aboutTitle">About Our Team</h2>
+            <p class="section__subtitle" data-i18n="aboutSubtitle">
+              Obalduyes is a First Lego League team focused on thoughtful design, clear communication, and measurable progress.
+            </p>
+          </header>
+
+          <div class="grid grid--2">
+            <div class="panel reveal" data-reveal>
+              <h3 class="panel__title" data-i18n="fllWhatTitle">What is FLL?</h3>
+              <p class="panel__text" data-i18n="fllWhat">
+                First Lego League (FLL) is an inspiring robotics program where teams solve real-world challenges through research, building,
+                and presenting their solutions.
+              </p>
+            </div>
+
+            <div class="panel reveal" data-reveal>
+              <h3 class="panel__title" data-i18n="goalsTitle">Our goals and values</h3>
+              <ul class="list">
+                <li>Design with purpose, test with discipline.</li>
+                <li>Communicate clearly and respectfully.</li>
+                <li>Improve through iteration and feedback.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projectsTitle">
+        <div class="container">
+          <header class="section__header reveal" data-reveal>
+            <h2 class="section__title" id="projectsTitle" data-i18n="projectsTitle">Our Projects</h2>
+            <p class="section__subtitle" data-i18n="projectsSubtitle">
+              A selection of the challenges we’ve explored. Each project combines engineering work with research and storytelling.
+            </p>
+          </header>
+
+          <div class="cards reveal" data-reveal>
+            <article class="card">
+              <div class="card__top">
+                <h3 class="card__title" data-i18n="p1Title">Urban Mobility</h3>
+                <p class="card__desc" data-i18n="p1Desc">
+                  Mapping friction points in everyday routes and proposing smarter, safer movement patterns.
+                </p>
+              </div>
+              <div class="card__actions">
+                <a class="btn btn--link" href="#contact" data-i18n="viewMore">View More</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__top">
+                <h3 class="card__title" data-i18n="p2Title">Smart Waste Literacy</h3>
+                <p class="card__desc" data-i18n="p2Desc">
+                  Building a clear feedback loop that helps people sort and dispose responsibly with less confusion.
+                </p>
+              </div>
+              <div class="card__actions">
+                <a class="btn btn--link" href="#contact" data-i18n="viewMore">View More</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__top">
+                <h3 class="card__title" data-i18n="p3Title">Assistive Learning Tools</h3>
+                <p class="card__desc" data-i18n="p3Desc">
+                  Designing support materials for better accessibility and clear step-by-step learning.
+                </p>
+              </div>
+              <div class="card__actions">
+                <a class="btn btn--link" href="#contact" data-i18n="viewMore">View More</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="achievements" aria-labelledby="achievementsTitle">
+        <div class="container">
+          <header class="section__header reveal" data-reveal>
+            <h2 class="section__title" id="achievementsTitle" data-i18n="achievementsTitle">Achievements</h2>
+            <p class="section__subtitle" data-i18n="achievementsSubtitle">
+              Awards and competitions that reflect our progress, teamwork, and communication.
+            </p>
+          </header>
+
+          <div class="timeline reveal" data-reveal aria-label="Achievements timeline">
+            <div class="timeline__item">
+              <div class="timeline__dot" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <div class="timeline__title" data-i18n="a1">Innovation Award</div>
+                <div class="timeline__meta">2025</div>
+                <p class="timeline__text" data-i18n="a1Desc">Recognized for clear problem framing and iterative prototyping.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__dot" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <div class="timeline__title" data-i18n="a2">Teamwork Excellence</div>
+                <div class="timeline__meta">2024</div>
+                <p class="timeline__text" data-i18n="a2Desc">Strong collaboration and respectful, structured presentation.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__dot" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <div class="timeline__title" data-i18n="a3">Community Impact</div>
+                <div class="timeline__meta">2023</div>
+                <p class="timeline__text" data-i18n="a3Desc">A solution-focused narrative and measurable outreach.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="team" aria-labelledby="teamTitle">
+        <div class="container">
+          <header class="section__header reveal" data-reveal>
+            <h2 class="section__title" id="teamTitle" data-i18n="teamTitle">Team Members</h2>
+            <p class="section__subtitle" data-i18n="teamSubtitle">
+              A small, focused crew with roles that keep our workflow calm and efficient.
+            </p>
+          </header>
+
+          <div class="members reveal" data-reveal">
+            <article class="member cardish">
+              <div class="member__avatar" aria-hidden="true"></div>
+              <div class="member__info">
+                <div class="member__name" data-i18n="m1Name">Alex</div>
+                <div class="member__role" data-i18n="m1Role">Team Lead / Strategy</div>
+              </div>
+            </article>
+            <article class="member cardish">
+              <div class="member__avatar" aria-hidden="true"></div>
+              <div class="member__info">
+                <div class="member__name" data-i18n="m2Name">Mila</div>
+                <div class="member__role" data-i18n="m2Role">Engineering / Prototyping</div>
+              </div>
+            </article>
+            <article class="member cardish">
+              <div class="member__avatar" aria-hidden="true"></div>
+              <div class="member__info">
+                <div class="member__name" data-i18n="m3Name">Noah</div>
+                <div class="member__role" data-i18n="m3Role">Research / Documentation</div>
+              </div>
+            </article>
+            <article class="member cardish">
+              <div class="member__avatar" aria-hidden="true"></div>
+              <div class="member__info">
+                <div class="member__name" data-i18n="m4Name">Sofia</div>
+                <div class="member__role" data-i18n="m4Role">Presentation / Mentoring</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--contact" id="contact" aria-labelledby="contactTitle">
+        <div class="container">
+          <header class="section__header reveal" data-reveal>
+            <h2 class="section__title" id="contactTitle" data-i18n="contactTitle">Contact</h2>
+            <p class="section__subtitle" data-i18n="contactSubtitle">
+              Minimal, direct ways to connect. Update the links below with your team details.
+            </p>
+          </header>
+
+          <div class="contactBar reveal" data-reveal>
+            <a class="btn btn--primary btn--wide" id="emailBtn" href="mailto:team@obalduyes.org">
+              <span class="btn__icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4 7.5C4 6.1 5.1 5 6.5 5h11C19.9 5 21 6.1 21 7.5v9C21 18.9 19.9 20 18.5 20h-11C5.1 20 4 18.9 4 17.5v-10Z"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                  />
+                  <path
+                    d="M6.5 7l5.5 4.6L17.5 7"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <span class="btn__text" data-i18n="emailBtn">Email</span>
+            </a>
+
+            <a
+              class="btn btn--secondary btn--wide"
+              id="youtubeBtn"
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="btn__icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10 15l5-3-5-3v6Z"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4.5 8.5C4.8 7 6 6 7.6 6h8.8c1.6 0 2.8 1 3.1 2.5.2 1 .2 2.1 0 3.1-.3 1.5-1.5 2.4-3.1 2.4H7.6c-1.6 0-2.8-.9-3.1-2.4-.2-1-.2-2.1 0-3.1Z"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                  />
+                </svg>
+              </span>
+              <span class="btn__text" data-i18n="youtubeBtn">YouTube</span>
+            </a>
+
+            <button class="btn btn--ghost btn--wide" id="translatorBtn" type="button">
+              <span class="btn__text" data-i18n="translatorBtn">Translator</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <span class="footer__dot" aria-hidden="true"></span>
+          <span>Obalduyes</span>
+        </div>
+        <div class="footer__meta" data-i18n="footerMeta">Modern portfolio for an FLL team.</div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
+
